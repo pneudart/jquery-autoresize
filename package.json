@@ -1,0 +1,16 @@
+{
+  "name": "jquery-autoresize",
+  "version": "1.0.0",
+  "description": "A simple plugin for making textarea elements capable of being resized automatically based on the combined height of its content.",
+  "main": "jquery.autoresize.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pneudart/jquery-autoresize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pneudart/jquery-autoresize/issues"
+  },
+  "homepage": "https://github.com/pneudart/jquery-autoresize#readme"
+}
