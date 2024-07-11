@@ -1,19 +1,13 @@
 /*!
- * jQuery textarea autoResize plugin v0.2.1
- * http://github.com/thomasjo/jquery-autoresize
- *
- * Copyright (c) 2011 Thomas Johansen | https://raw.github.com/thomasjo/jquery-autoresize/master/LICENSE.txt
+ * jQuery textarea autoResize plugin
  */
 
-;(function() {
+(function ($) {
     'use strict';
 
-    var root = this,
-        $ = root.$,
-
-        defaults = {
-            resize: $.noop
-        };
+    var defaults = {
+        resize: $.noop
+    };
 
     $.fn.autoResize = function(options) {
         var settings = $.extend({}, defaults, options);
@@ -94,5 +88,5 @@
     function supportsPropertyChangeEvent() {
         return 'onpropertychange' in document.body;
     }
+}(jQuery));
 
-}).call(this);
